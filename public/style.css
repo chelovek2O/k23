@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #181818; /* Темный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #f0f0f0; /* Светлый цвет текста */
+    flex-direction: column
+  }
+  
+  .cont {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #282828c3; /* Темный фон контейнера */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Увеличенный бокс-шадоу для выделения */
+    
+  }
+  
+  .header {
+    background-color: #333; /* Темный фон заголовка */
+    color: #f0f0f0; /* Светлый цвет текста */
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  h1 { /* Заголовок */
+    color: #f0f0f0; /* Светлый цвет заголовка */
+    margin-bottom: 20px;
+  }
+  
+  h2 { /*  Подзаголовок */
+    color: #f0f0f0; /* Светлый цвет подзаголовка */
+  }
+  
+  dl {
+    background-color: #282828; /* Темный фон */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  a:hover{
+    background-color: rgba(255, 255, 0, 0.193);
+    transition-duration: 1s;
+  }
+  
+  a{
+    appearance: none;
+    color: rgba(255, 255, 255, 0.56);
+  }
